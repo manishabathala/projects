@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color:rgb(11, 54, 156);
+}
+.main{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+
+}
+#head{
+    color: white;
+    font-size: 38px;
+}
+.main input{
+    padding: 10px 70px;
+    border: 3px solid rgb(152, 7, 152);
+    border-radius: 10px;
+    
+}
+.main button{
+    padding: 0px 40px;
+    border: 3px solid rgb(152, 7, 152);
+    border-radius: 10px;
+}
+#output{
+    width: 1280px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+.card{
+    padding: 30px;
+    /* border: 2px solid white; */
+}
+.card h2,h3{
+    text-align: center;
+    color: white;
+}
+.card img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+.movie{
+    padding: 30px;
+}
+.movie img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+.movie h2,h3{
+    text-align: center;
+    color: white;
+}

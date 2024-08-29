@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(204, 204, 222),blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 15px;
+}
+h2{
+    font-size: 34px;
+    color: blue;
+}
+.zero p{
+    font-size: 54px;
+}
+.op button{
+    font-size: 28px;
+    margin: 0px 10px;
+    padding:5px 18px;
+    border:solid blue 5px;
+    border-radius: 10px;
+    background-color:rgb(204, 204, 222) ;
+}

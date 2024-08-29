@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .primary{
+            background-color: #00d5ff;
+            position:absolute;
+            margin-left: 40%;
+        }
+
+    </style>
+</head>
+<body class="primary">
+    <h1>Registration Form</h1>
+    <form action="">
+        <label for="n">Name:</label><input type="text" id="n" placeholder="enter your full name" required><br><br>
+        <label for="f">Father's Name:</label><input type="text" placeholder="enter your father name" id="f"><br><br>
+        <label for="f">Mother's Name:</label><input type="text" placeholder="enter your mother name" id="f"><br><br>
+        <label for="em">Email:</label><input type="email" placeholder="enter your email" id="em" required><br><br>
+        <label for="phn">Phone Number:</label><input type="number" placeholder="enter phone number" id="phn" maxlength="10" required><br><br>
+        <label for="g">Gender:</label><input type="radio" name="gender" id="g">Male
+        <input type="radio" name="gender">Female<br><br>
+        <label for="dob">Date Of Birth:</label><input type="date" id="dob"><br><br>
+        <!-- <label for="add">Address:</label><textarea type="text" id="add"><br><br> -->
+        <label for="col">College:</label><input type="text" placeholder="enter college name" id="col"><br><br>
+        <label for="gra">Graduation:</label>
+        <select name="grad" id="gra">
+            <option value="select">select</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BE">BE</option>
+            <option value="Degree">Degree</option>
+        </select><br><br>
+        <label for="cou">Department:</label><select name="course" id="cou">
+            <optgroup label="Engineering">
+                <option value="select">select</option>
+                <option value="ece">ECE</option>
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="civil">CIVIL</option>
+                <option value="mech">MECH</option></optgroup>
+            <optgroup label="Degree"><option value="ece">BSC</option>
+                <option value="ece">B.COM</option>
+                <option value="ece">BCA</option></optgroup>
+        </select><br><br>
+        <label for="y">Graduation Year:</label><input type="month" id="y"><br><br>
+        <label for="ba">Backlogs:</label><select name="sub" id="">
+            <option value="select">select</option>
+            <option value="yes">YES</option>
+            <option value="no">NO</option>
+        </select><br><br>
+        <label for="s">Skills:</label><input type="checkbox" id="s">C
+        <input type="checkbox" id="s">C++
+        <input type="checkbox" id="s">Python
+        <input type="checkbox" id="s">Java
+        <input type="checkbox" id="s">HTML
+        <input type="checkbox" id="s">CSS
+        <input type="checkbox" id="s">JavaScript
+        <input type="checkbox" id="s">.Net<br><br>
+        <label for="c">Country:</label><input type="text" id="c" placeholder="India" readonly><br><br>
+        <label for="ph">Upload Photo:</label><input type="file" id="ph"><br><br>
+        <label for="re">Upload Resume:</label><input type="file" id="re"><br><br>
+        <button>submit</button> <button>reset</button>
+    </form>
+</body>
+</html>

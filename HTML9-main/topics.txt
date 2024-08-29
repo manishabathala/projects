@@ -1,0 +1,46 @@
+Blogging - hashnode
+netlify -- folder--, main file name- index.html
+git and github
+
+HTML
+================================
+
+first HTML
+headings,p,img,a
+lists
+tables
+formatting tags
+inline vs block
+semantic elements
+classes and id
+emoji,symbols,icons
+Forms and validation
+media and HTML5
+
+Projects:
+-------------
+WWW Projects
+basic tribute
+resume Projects
+time table
+reg form
+
+CSS
+======================
+Different types of Styling(inline,internal,external)
+Basic selectors(tagname,.classname, #idname), :hover
+colors(hex code, name , rgb , rgba, hsl, hsla)
+fonts(font-family,font-size,font-weight,font-style)
+text(text-decoration,text-shadow,text-transform,text align)
+background(linear,radial,img,size,postition,repeat)
+units(px,em,rem,%,vw,vh)
+box model(padding,margin,border,border-radius)
+float, display
+flexbox
+
+
+
+
+
+
+

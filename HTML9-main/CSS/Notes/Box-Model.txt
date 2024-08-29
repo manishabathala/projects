@@ -1,0 +1,31 @@
+Box Model is key concept of CSS.
+Every element is treated as a box here. Every Box contains
+1. padding
+2. border
+3. margin
+
+1. padding: the gap between border and actual content is padding
+padding: xpx;
+x px will given for top,left,right,bottom
+padding: tb lr;
+padding t  lr  b;
+padding: t r b l;
+
+2. border: border is the outmost line of any box
+border: width style color;
+eg: border:2px solid red;
+
+border-radius will give corner curvature:
+border-radius:50% to make circle,
+to make any polygon, use clip-path
+
+3. margin: margin is similar to padding but it is outer space for the box.
+
+
+
+
+
+
+
+
+

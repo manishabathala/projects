@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="accordion">
+        <div class="items">
+            <div class="question" onclick="visible(this)">What is HTML?</div>
+            <div class="answer hide">Hyper Text Markup Language</div>
+        </div>
+        <div class="items">
+            <div class="question" onclick="visible(this)">What is CSS?</div>
+            <div class="answer hide">Cascading Style Sheets</div>
+        </div>
+        <div class="items">
+            <div class="question" onclick="visible(this)">What is JS?</div>
+            <div class="answer hide">JavaScript</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

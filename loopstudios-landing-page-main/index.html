@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Loopstudios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <nav>
+        <p class="logo">loopstudios</p>
+        <div class="menu">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="heading">
+        <h1>Immersive experiences that deliver</h1>
+      </div>
+    </header>
+  <div class="container">
+    <main>
+      <section>
+        <div class="middle">
+          <div class="image">
+            <img src="./images/desktop/image-interactive.jpg" alt="image">
+          </div>
+          <div class="para">
+            <h2>The leader in interactive VR</h2>
+            <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+              projects for some of the best companies around the globe. Our award-winning 
+              creations have transformed businesses through digital experiences that bind 
+              to their brand.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="create">
+          <h2>Our creations</h2>
+          <div class="btn" onclick="show()" id="sh"><button>See all</button></div>
+        </div>
+        <div class="grid">
+          <img src="./images/desktop/image-deep-earth.jpg" alt="">
+          <img src="./images/desktop/image-night-arcade.jpg" alt="">
+          <img src="./images/desktop/image-soccer-team.jpg" alt="">
+          <img src="./images/desktop/image-grid.jpg" alt="">
+          <img src="./images/desktop/image-from-above.jpg" alt="">
+          <img src="./images/desktop/image-pocket-borealis.jpg" alt="">
+          <img src="./images/desktop/image-curiosity.jpg" alt="">
+          <img src="./images/desktop/image-fisheye.jpg" alt="">
+        </div>  
+      </section>
+    </main>
+  </div>
+  <footer>
+    <div class="end">
+      <h3>loopstudios</h3>
+    <div class="bottom">
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Events</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Support</a></li>
+      </ul>
+      <p>© 2021 Loopstudios. All rights reserved.
+      </p>
+    </div>
+    </div>
+  </footer>
+  <div class="modal" id="accordionModal">
+    <div class="modal-content">
+      <span class="close" onclick="hide()">&times;</span>
+      <div class="accordion">
+    <div class="items">
+        <div class="question" onclick="visible(this)">What is HTML?</div>
+        <div class="answer hide">Hyper Text Markup Language</div>
+    </div>
+    <div class="items">
+        <div class="question" onclick="visible(this)">What is CSS?</div>
+        <div class="answer hide">Cascading Style Sheets</div>
+    </div>
+    <div class="items">
+        <div class="question" onclick="visible(this)">What is JS?</div>
+        <div class="answer hide">JavaScript</div>
+    </div>
+    </div>
+</div>
+</div>
+  
+  Deep earth
+  Night arcade
+  Soccer team VR
+  The grid
+  From up above VR
+  Pocket borealis
+  The curiosity
+  Make it fisheye
+  <script src="script.js"></script>
+</body>
+</html>

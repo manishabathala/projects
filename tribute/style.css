@@ -1,0 +1,33 @@
+div{
+    
+    display: grid;
+    place-content: center;
+}
+#src{
+    border-radius: 100px;
+}
+body{
+    background-color:rgb(182, 211, 212);
+}
+#title{
+    text-align: center;
+    color:darkmagenta;
+    text-transform:capitalize;
+    text-shadow: 3px 3px white;
+
+}
+h2{
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color:blueviolet;
+    color:royalblue
+
+}
+p{
+    font-family:cursive;
+    font-size:medium;
+    font-weight:100;
+    font-style: italic;
+
+}

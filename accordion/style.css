@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.items{
+    border: 2px solid blue;
+}
+.question{
+    background-color: aquamarine;
+    padding: 10px 0px;
+}
+.answer{
+    padding: 10px;
+}
+.hide{
+    display: none;
+}
